@@ -8,7 +8,12 @@ module.exports = {
     './nuxt.config.{js,ts}'
   ],
   theme: {
-    extend: {}
+    extend: {
+      backgroundImage: {
+        'page-texture': 'url(/images/prato-verde-page.png)',
+        'logo-texture': 'url(/images/logo-letras-verdes.png)'
+      }
+    }
   },
   plugins: []
 }
